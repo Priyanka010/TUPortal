@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9FA8DA"
+    tools:context="com.tuportal.example.tuportal.activity.FAQs">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/faq_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/fringy_green"
+        android:weightSum="1">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequently Asked Questions"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/toolbar_faq"
+        android:textSize="25sp"
+        />
+</android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq_toolbar"
+        android:layout_marginTop="20dp"
+        android:text="@string/q1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/a1"
+        android:id="@+id/txt2"
+        android:layout_below="@+id/txt1"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:layout_marginTop="10dp"
+        android:text="@string/q2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/a3"
+        android:id="@+id/txt4"
+        android:layout_below="@+id/txt3"/>
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt4"
+        android:layout_marginTop="10dp"
+        android:text="@string/q3"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a3"
+        android:id="@+id/txt6"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/txt5"/>
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt6"
+        android:layout_marginTop="10dp"
+        android:text="@string/q4"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a4"
+        android:id="@+id/txt8"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/txt7"/>
+
+    </RelativeLayout>

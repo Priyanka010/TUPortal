@@ -3,7 +3,8 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CollegeListActivity"
+    android:background="#9FA8DA"
+    tools:context=".activity.CollegeListActivity"
     android:orientation="horizontal">
 
     <android.support.v7.widget.Toolbar

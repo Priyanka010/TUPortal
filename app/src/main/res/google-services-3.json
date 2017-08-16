@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1014084206906",
+    "firebase_url": "https://csitportal-e5fc1.firebaseio.com",
+    "project_id": "csitportal-e5fc1",
+    "storage_bucket": "csitportal-e5fc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014084206906:android:64bf5c796f4b4750",
+        "android_client_info": {
+          "package_name": "com.tuportal.example.tuportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014084206906-m5kkv4uqf9h31j8b9lhubd9s4qg69mhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN9snGoBUR4GqKripnkXxnnyuYvC2bZWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

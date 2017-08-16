@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9FA8DA"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/finalscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Score : 100"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/congomen"
+        android:layout_margin="20dp"
+        android:layout_weight="0.65" />
+
+    <Button
+        android:id="@+id/platygaianbutton"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:background="@drawable/backgroundbutton"
+        android:onClick="PlayAgain1"
+        android:text="PLAY AGAIN"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

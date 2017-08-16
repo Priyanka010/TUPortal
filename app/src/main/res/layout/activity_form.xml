@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.priya.nepalhm.FormActivity">
+    android:background="#9FA8DA"
+    tools:context="com.tuportal.example.tuportal.activity.FormActivity"
+    android:weightSum="1">
     <android.support.v7.widget.Toolbar
         android:id="@+id/form_toolbar"
         android:layout_height="wrap_content"
@@ -16,64 +18,51 @@
 
 
         <TextView
+            android:id="@+id/toolbar_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Complain / Feedback Form"
             android:layout_gravity="center"
-            android:textStyle="bold"
+            android:text="Complain / Feedback Form"
             android:textColor="#fff"
-            android:id="@+id/toolbar_title"
             android:textSize="25dp"
-            />
+            android:textStyle="bold" />
     </android.support.v7.widget.Toolbar>
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/name"
-        android:textSize="18sp"
-        android:textColor="#303F9F"
-        android:hint="Name"/>
-
-    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        android:id="@+id/user_email"
-        android:textSize="18sp"
+        android:hint="Name"
         android:textColor="#303F9F"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp" />
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_weight="0.09" />
+
 
     <EditText
+        android:id="@+id/user_subject"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Subject"
-        android:textSize="18sp"
         android:textColor="#303F9F"
-        android:id="@+id/user_subject"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp" />
+        android:layout_weight="0.10" />
 
     <EditText
+        android:id="@+id/user_body"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.47"
         android:hint="Body"
-        android:textSize="18sp"
+        android:textAlignment="center"
         android:textColor="#303F9F"
-        android:id="@+id/user_body"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp" />
-
-    <Button
-    android:id="@+id/send"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:background="@color/cutty_green"
-    android:text="SEND"
-    android:textColor="#fff"
-    android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <FrameLayout
         android:layout_width="wrap_content"
@@ -82,6 +71,18 @@
         android:padding="1dp">
 
     </FrameLayout>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/cutty_green"
+        android:text="SEND"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_weight="0.05" />
 
 
 </LinearLayout>

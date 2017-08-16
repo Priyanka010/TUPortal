@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/Login"
-        android:icon="@drawable/fireplace"
-        android:title="Login" />
+
     <item
         android:id="@+id/AboutUs"
-        android:icon="@drawable/fireplace"
+        android:icon="@drawable/home"
         android:title="About Us" />
     <item
-        android:id="@+id/NotifyResult"
+        android:id="@+id/Quiz"
         android:icon="@drawable/man"
-        android:title="Notify Result"/>
+        android:title="Quiz" />
+
+    <item
+        android:id="@+id/ExamCenter"
+        android:icon="@drawable/fireplace"
+        android:title="Exam Center Location" />
 
     <item
         android:id="@+id/FAQ"
@@ -19,7 +21,8 @@
         android:title="FAQ" />
 
     <item
-        android:id="@+id/ContactUs"
+        android:id="@+id/Internalqus"
         android:icon="@drawable/avatar"
-        android:title="Contact" />
+        android:title="Internal Questions" />
+
 </menu>

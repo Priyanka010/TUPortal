@@ -8,8 +8,8 @@
     <color name="tab_background_selected">#4D13C9</color>
     <color name="tabTextInactive">#000</color>
 
-    <color name="fringy_green">#999999</color> <!-- Use with white text -->
-    <color name="cutty_green">#993300</color> <!-- Use with white text -->
-    <color name="teal_700">#00796b</color> <!-- Use with white text -->
+    <color name="fringy_green">#7E57C2</color> <!-- Use with white text -->
+    <color name="cutty_green">#311B92</color> <!-- Use with white text -->
+    <color name="teal_700">#9FA8DA</color> <!-- Use with white text -->
 
 </resources>

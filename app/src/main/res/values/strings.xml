@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TU PORTAL</string>
+    <string name="app_name">CSIT PORTAL</string>
     <string name="browse">Enroll in B.Sc.CSIT affiliated by TU</string>
     <string name="action_settings">Settings</string>
 
@@ -33,14 +33,23 @@
     <string name="fifth">Fifth semester result 2017</string>
     <string name="sixth">Sixth semester result 2017</string>
     <string name="seventh">Seventh semester result 2017</string>
-    <string name="FirstSem">one</string>
-    <string name="SecondSem">two</string>
+    <string name="FirstSem">FirstSem</string>
+    <string name="SecondSem">SecondSem</string>
     <string name="ThirdSem">Results</string>
     <string name="FourthSem">Syllabus</string>
     <string name="FifthSem">College List</string>
     <string name="SixthSem">Admission</string>
     <string name="SeventhSem">Salient Features</string>
     <string name="EighthSem">Eligibilty to study</string>
+    <string name="q1">  1)  Am I eligible for the program or not?</string>
+    <string name="a1">Yes, you are eligible for the 4 years B.Sc.CSIT program if you have completed a twelve year of schooling in the science stream, with a minimum of second division in +2, from any university, board or institution recognized by TU. Then you should have at least 35% in the entrance examination conducted by TU </string>
+    <string name="q2">  2)  How can I enroll in B.Sc.CSIT program?</string>
+    <string name="a2">Application form is available in affiliated colleges and constituent campuses of TU. Then one can join any colleges of their choice.</string>
+    <string name="q3">  3)  I have passed IOE Entrance Exam, so am I eligible to study B.Sc. CSIT?</string>
+    <string name="a3">No. Students should pass a separate Entrance Exam conducted by Institute of Science and Technology (IOST), TU, to be eligible to study B.Sc. CSIT.</string>
+
+    <string name="q4">  4)  What are the career opportunities after completing B.Sc.CSIT?</string>
+    <string name="a4">Graduates can pursue a range of careers after completing 4 years of B.Sc.CSIT course like Software Developer,Web Developer,Network Administrator,Database Administrator,IT Manager/Officer,System Analyst,Project Manager.</string>
 
     <string-array name="list">
         <item>@string/AboutCSIT</item>
@@ -65,8 +74,8 @@
         <item>@string/seventh</item>
     </string-array>
     <string-array name="list3">
-        <item>FirstSem</item>
-        <item>SecondSem</item>
+        <item>@string/FirstSem</item>
+        <item>@string/SecondSem</item>
         <item>ThirdSem</item>
         <item>FourthSem</item>
         <item>FifthSem</item>
@@ -93,4 +102,17 @@
         <item>Trinity International College</item>
     </string-array>
 
+    <string-array name="staticText1Elements">
+
+        <item>@string/q1</item>
+        <item>@string/a1</item>
+        <item>@string/q2</item>
+        <item>@string/a2</item>
+        <item>@string/q3</item>
+        <item>@string/a3</item>
+        <item>@string/q4</item>
+        <item>@string/a4</item>
+
+
+    </string-array>
 </resources>

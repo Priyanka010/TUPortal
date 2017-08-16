@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.priya.nepalhm.NextResultActivity">
+    android:background="#9FA8DA"
+    tools:context="com.tuportal.example.tuportal.activity.NextResultActivity">
     <android.support.v7.widget.Toolbar
         android:id="@+id/tb"
         android:layout_width="match_parent"
